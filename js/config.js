@@ -7,7 +7,7 @@ const CFG = {
 
     // Social
     github: "matetohai",
-    linkedin: "https://www.linkedin.com/in/matetohai/",
+    linkedin: "matetohai",
 
     // Auto
     year: new Date().getFullYear(),
