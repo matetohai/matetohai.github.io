@@ -1,2 +1,198 @@
-hello,
-this is my portfolio as a Mechanical Engineer, working in Coppenhagen.
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mechanical Engineering Portfolio - [Your Name]">
+    <title>[Your Name] | Mechanical Engineer | 3D Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code&display=swap" rel="stylesheet">
+
+    <!-- Config (must load first) -->
+    <script src="js/config.js"></script>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="navbar">
+            <div class="logo"><span class="cfg-name">[Your <span>Name</span>]</span></div>
+            <nav>
+                <ul>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#models-3d">3D Models</a></li>
+                    <li><a href="#cv">CV</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1 class="hero-title animate-fade-in-up">Mechanical Engineering <span class="highlight">Portfolio</span></h1>
+            <p class="hero-subtitle animate-fade-in-up delay-1">
+                Precision engineering meets creative design. Explore my collection of mechanical designs, 3D models, and engineering solutions.
+            </p>
+            <a href="#portfolio" class="cta-button animate-fade-in-up delay-2">View My Work</a>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="reveal">Portfolio</h2>
+                <p class="section-subtitle reveal delay-1">A curated selection of my mechanical engineering projects and designs.</p>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Projects will be rendered by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 3D Models Section -->
+    <section id="models-3d" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="reveal">Interactive 3D Models</h2>
+                <p class="section-subtitle reveal delay-1">
+                    Explore 3D models in your browser. Rotate, zoom, and inspect every detail.<br>
+                    <small class="muted">Click and drag to rotate. Scroll to zoom.</small>
+                </p>
+            </div>
+
+            <div class="model-showcase">
+                <!-- Models will be rendered by JavaScript -->
+            </div>
+
+            <div class="section-header" style="margin-top: 3rem;">
+                <h3 class="reveal">🔧 How to Add Your 3D Models</h3>
+            </div>
+            <div class="info-card reveal delay-1" style="margin-top: 1.5rem;">
+                <ol>
+                    <li><strong>Convert:</strong> Use <a href="https://gltf-pipeline.dev/" target="_blank">gltf-pipeline.dev</a> (free) to convert OBJ/FBX/STEP to .glb</li>
+                    <li><strong>Upload:</strong> Place .glb files in <code>assets/models/</code></li>
+                    <li><strong>Update:</strong> Change <code>src="assets/models/your-model.glb"</code> in the model-viewer tag</li>
+                    <li><strong>Test:</strong> The first model already works with a free sample!</li>
+                </ol>
+                <p style="margin-top: 1rem;"><strong>Free Models:</strong> <a href="https://sketchfab.com/3d-models?license=cc0" target="_blank">Sketchfab CC0</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV Section -->
+    <section id="cv" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="reveal">Curriculum Vitae</h2>
+                <p class="section-subtitle reveal delay-1">My professional background and experience.</p>
+            </div>
+
+            <div class="cv-container">
+                <div class="cv-card reveal">
+                    <div class="cv-header">
+                        <h2 class="cv-title cfg-name">[Your Name]</h2>
+                        <div class="cv-actions">
+                            <a href="assets/cv/cv.pdf" class="btn btn-primary" download>📥 Download PDF</a>
+                        </div>
+                    </div>
+
+                    <div class="cv-content">
+                        <h3>Professional Summary</h3>
+                        <p>
+                            Mechanical Engineer with experience in design, analysis, and manufacturing.
+                            Specialized in CAD design and prototyping.
+                        </p>
+
+                        <h3>Education</h3>
+                        <ul>
+                            <li><strong>MSc Mechanical Engineering</strong><br>Technical University | Year</li>
+                        </ul>
+
+                        <h3>Experience</h3>
+                        <ul>
+                            <li><strong>Mechanical Engineer</strong> | Company | 2020 - Present<br>
+                                Design and development of mechanical systems.
+                            </li>
+                        </ul>
+
+                        <h3>Contact</h3>
+                        <p>
+                            📧 <a href="#" data-email class="cfg-email">your.email@example.com</a><br>
+                            📞 <span class="cfg-phone">+45 XX XX XX XX</span><br>
+                            🌐 <a href="#" data-linkedin target="_blank" class="cfg-linkedin">LinkedIn</a> |
+                            <a href="#" data-github target="_blank" class="cfg-github">GitHub</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="reveal">Get In Touch</h2>
+                <p class="section-subtitle reveal delay-1">Have questions or want to collaborate?</p>
+            </div>
+    
+            <div class="contact-container">
+                <div class="contact-card reveal">
+                    <div class="contact-icon">📧</div>
+                    <h2 class="contact-title">Let's Connect</h2>
+                    <p class="contact-description">
+                        Feel free to reach out about projects or collaborations.
+                    </p>
+    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-method-icon">✉️</div>
+                            <a href="#" data-email class="cfg-email">Email Me</a>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-method-icon">💼</div>
+                            <a href="#" data-linkedin target="_blank" class="cfg-linkedin">LinkedIn</a>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-method-icon">🐙</div>
+                            <a href="#" data-github target="_blank" class="cfg-github">GitHub</a>
+                        </div>
+                    </div>
+    
+                    <div class="contact-footer">
+                        <p>📞 <span class="cfg-phone">+45 XX XX XX XX</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="copyright">© <span class="cfg-year"></span> <span class="cfg-name"></span>. All rights reserved.</div>
+            <div class="social-links">
+                <a href="#" data-github class="social-link" target="_blank" title="GitHub">🐙</a>
+                <a href="#" data-linkedin class="social-link" target="_blank" title="LinkedIn">💼</a>
+                <a href="#" data-email class="social-link" title="Email">✉️</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 3D Model Viewer Script -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer@3.0.1/dist/model-viewer.min.js"></script>
+
+    <!-- Main JavaScript -->
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
