@@ -1,13 +1,13 @@
 
 const CFG = {
     // Personal info
-    name: "My Name",
-    email: "my.email@example.com",
-    phone: "+45 XX XX XX XX",
+    name: "Mate Tohai",
+    email: "tohaimate98@gmail.com",
+    phone: "+45 52 80 59 71",
 
     // Social
-    github: "umpire640",
-    linkedin: "yourprofile",
+    github: "matetohai",
+    linkedin: "https://www.linkedin.com/in/matetohai/",
 
     // Auto
     year: new Date().getFullYear(),
@@ -43,29 +43,29 @@ const CFG = {
     // ===== 3D MODELS =====
     models: [
         {
-            title: "Sample Model",
-            description: "Free sample from Google.",
-            file: "https://modelviewer.dev/shared-assets/models/Astronaut.glb",
-            poster: "https://modelviewer.dev/shared-assets/models/Astronaut.webp",
+            title: "Final Jet Engine Assembly",
+            description: "Assembled model from Solidworks",
+            file: "https://modelviewer.dev/shared-assets/models/Final jet Engine Assembly.glb",
+            poster: "https://modelviewer.dev/shared-assets/models/Final jet Engine Assembly.webp",
             isSample: true
         },
         {
-            title: "Your Model",
-            description: "Add your own .glb file.",
-            file: "assets/models/telescope.glb",
+            title: "Exhaust Assembly_1",
+            description: "Exhaust assembly thruster view_1",
+            file: "assets/models/Exhaust Assembly_1.glb",
             isSample: false
         },
         {
-            title: "Another Model",
-            description: "Add your own .glb file.",
-            file: "assets/models/dish.glb",
+            title: "Exhaust Assembly_2",
+            description: "Exhaust assembly thruster view_1",
+            file: "assets/models/Exhaust Assembly_2.glb",
             isSample: false
         },
         {
-            title: "One more Model",
-            description: "Free sample from Google.",
-            file: "https://modelviewer.dev/shared-assets/models/EmissiveStrengthTest.glb",
-            poster: "https://modelviewer.dev/shared-assets/models/EmissiveStrengthTest.webp",
+            title: "Exhaust Assembly_3",
+            description: "Exhaust assembly thruster view_1",
+            file: "https://modelviewer.dev/shared-assets/models/Exhaust Assembly_3.glb",
+            poster: "https://modelviewer.dev/shared-assets/models/Exhaust Assembly_3.webp",
             isSample: true
         }        
     ],
