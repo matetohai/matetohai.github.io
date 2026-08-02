@@ -45,7 +45,7 @@ const CFG = {
         {
             title: "Final Jet Engine Assembly",
             description: "Assembled model from Solidworks",
-            file: "assets/models/Final jet Engine Assembly.glb",
+            file: "assets/models/Final Jet Engine Assembly.glb",
             isSample: false
         },
         {
