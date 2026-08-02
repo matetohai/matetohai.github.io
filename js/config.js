@@ -46,7 +46,6 @@ const CFG = {
             title: "Final Jet Engine Assembly",
             description: "Assembled model from Solidworks",
             file: "https://modelviewer.dev/shared-assets/models/Final jet Engine Assembly.glb",
-            poster: "https://modelviewer.dev/shared-assets/models/Final jet Engine Assembly.webp",
             isSample: false
         },
         {
@@ -65,7 +64,6 @@ const CFG = {
             title: "Exhaust Assembly_3",
             description: "Exhaust assembly thruster view_1",
             file: "https://modelviewer.dev/shared-assets/models/Exhaust Assembly_3.glb",
-            poster: "https://modelviewer.dev/shared-assets/models/Exhaust Assembly_3.webp",
             isSample: false
         }        
     ],
