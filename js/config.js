@@ -15,12 +15,12 @@ const CFG = {
     // ===== PROJECTS =====
     projects: [
         {
-            title: "Gear Assembly System",
-            description: "Precision gear assembly designed for high-torque applications.",
+            title: "Jet engine",
+            description: "Designing  a Jet Engine in Solidworks",
             tags: ["CAD Design", "Mechanical"],
-            image: "assets/images/project-1.jpg"
+            image: "assets/images/Jet engine.jpg"
         },
-        {
+ /*      {
             title: "Industrial Robotic Arm",
             description: "6-axis robotic arm with servo-controlled joints.",
             tags: ["Robotics", "Automation"],
